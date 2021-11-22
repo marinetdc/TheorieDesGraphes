@@ -1,0 +1,14 @@
+# -*- coding: utf-8 -*-
+# un fichier exemple avec erreurs
+10 5 2 4 # 10 sommets de 1 à 10, 5 arêtes, dmin=2, dmax=4
+# une ligne sans info
+0 2 # ligne avec erreur
+2 0 # ligne avec 2 erreurs (0, 2 > 0)
+4 5 # ok
+4 5 2 # ok
+5 4 12 # erreur (5 > 4)
+5 7 # ok
+7 2 3 # erreur (7 > 2)
+3 7 # ok
+3 6 7 # ok
+4 6 -3 # ok mais 6ème arête
